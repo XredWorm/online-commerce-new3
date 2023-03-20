@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(kazakhstan_guide_nature.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar p {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-break: 12;
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    color: black;
+    background-color: #999;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+
+    background-position: center;
+    background-size: cover;
+
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(Burabay.jpg);
+}
+
+.card2 {
+    background-image: url(Sharyn.jpg);
+}
+
+.card3 {
+    background-image: url(Turkistan.jpg);
+}
+
+.card4 {
+    background-image: url(Kolsai.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 5px #999;
+}
+
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 12px;
+}
+
+
+
+/* EXPLORE */
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Khan.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.Explore {
+    color: #d4d4d4;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.explore-text {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.texxt {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/* Region */
+.container2 {
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pexels-willy-arisky-1059161.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.bott {
+    padding-top: 9px;
+}
+
+.tit {
+    margin-top: 50px;
+    color: #fff;
+}
+
+
+
+.desc {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.mapss {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.maps {
+    text-align: center;
+}
+
+br {
+    margin-top: 2px;
+}
+
+/* ABOUT */
+
+.container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Kazak.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.info {
+    padding-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-text {
+    max-width: 450px;
+}
+
+.info-text h2 {
+    color: #fff;
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.info-image {
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 15px 40px 45px rgba(0, 0, 0, 0.4);
+}
+
+.info-image1 {
+    margin-right: 40px;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 15px 40px 45px rgba(0, 0, 0, 0.4);
+}
+
+.about-text {
+    color: #c3c3c3;
+    font-size: 17px;
+    line-height: 25px;
+}
